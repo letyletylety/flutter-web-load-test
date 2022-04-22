@@ -4,6 +4,8 @@ import 'package:flutter_application_1/main.dart';
 /// package test
 import 'package:toggle_switch/toggle_switch.dart';
 
+const createImage = 'assets/create.png';
+
 class NextPage extends StatelessWidget {
   const NextPage({
     Key? key,

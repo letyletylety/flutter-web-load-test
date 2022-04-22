@@ -7,7 +7,6 @@ void main() {
 }
 
 const treeImage = 'assets/tree.jpeg';
-const createImage = 'assets/create.png';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
