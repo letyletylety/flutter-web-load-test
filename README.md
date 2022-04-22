@@ -191,6 +191,18 @@ class NextPage extends StatelessWidget {
 
 ## 테스트 결과
 
-> flutter run —release 로 테스트
+> vscode 기본 디버거로 테스트
 
 ### main.dart
+
+![https://i.ibb.co/yh42YCR/mainpage.png](https://i.ibb.co/yh42YCR/mainpage.png)
+
+마지막에 create.png 만 로드되고 nextpage에 있는 이미지는 로드되지 않았다.
+
+### next.dart
+
+![https://i.ibb.co/cLRQc8Y/nextpage.png](https://i.ibb.co/cLRQc8Y/nextpage.png)
+
+tree.jpeg 이미지만 로드된다.
+
+토글 스위치 패키지는 그 이전에 호출되었다는 것을 유추 할 수 있고 실제로 검색해보면 그렇다.
